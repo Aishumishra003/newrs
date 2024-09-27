@@ -1,0 +1,32 @@
+.first-header{
+    position: relative;
+}
+.header-image{
+    width: 100%;
+    height: 700px;
+}
+
+.inside-header{
+    position: absolute;
+    top:200px;
+    left: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.chef-making-food{
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+}
+.header-article-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:30px;
+}
+.header-article{
+    font-size: 20px;
+    width: 270px;
+    font-weight: bold;
+    color: rgb(92, 92, 92);
+}
